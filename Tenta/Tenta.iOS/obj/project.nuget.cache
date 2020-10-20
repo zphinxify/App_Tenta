@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2GgGmstYtJcb2YgmfA+dat7gPYReNcoamh2Me7kmbcV6re1ogvgwYKBv+WW3WNfMwqANXy4Xmup1ZBLJzspVOQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta.iOS\\Tenta.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\benja\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}
