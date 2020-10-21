@@ -9,7 +9,7 @@ namespace Tenta.Models
         public partial class Joke
         {
             [JsonProperty("id")]
-            public int ID { get; set; }
+            public string ID { get; set; }
 
             [JsonProperty("value")]
             public string Value { get; set; }

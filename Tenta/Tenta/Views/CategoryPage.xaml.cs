@@ -27,7 +27,7 @@ namespace Tenta.Views
             base.OnAppearing();
 
             // Bind the categories retrived from Apicall
-            categories.ItemsSource = await _model._service.GetJokeCategories();
+            categories.ItemsSource = await _model.service.GetJokeCategories();
         }
 
         async void ButtonNavigate_Clicked(object sender, SelectedItemChangedEventArgs selectedCategory)

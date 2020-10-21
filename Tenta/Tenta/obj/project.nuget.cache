@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IVGNIK4xWMeT6WkrLe+K2wz9H76usEV6W6METk8mvLFUv+heMmD2qyH/DnoEFMiSjzS8u14jPk/rnS9B0+xQRQ==",
+  "dgSpecHash": "5LRSuqgSxuOrrJHjsNK+UxJxBRLgQGzNfYMDHQM74mO2NM59iTUf5/mB6AfOHy1YBKytdSC+Fvt3CxnHJExg+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta\\Tenta.csproj",
+  "projectFilePath": "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta\\Tenta.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\benja\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\benja\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

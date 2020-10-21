@@ -1055,11 +1055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta.iOS\\Tenta.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta.iOS\\Tenta.iOS.csproj",
       "projectName": "Tenta.iOS",
-      "projectPath": "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta.iOS\\Tenta.iOS.csproj",
+      "projectPath": "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta.iOS\\Tenta.iOS.csproj",
       "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta.iOS\\obj\\",
+      "outputPath": "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1080,8 +1080,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta\\Tenta.csproj": {
-              "projectPath": "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta\\Tenta.csproj"
+            "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta\\Tenta.csproj": {
+              "projectPath": "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta\\Tenta.csproj"
             }
           }
         }

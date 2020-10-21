@@ -8,13 +8,7 @@ namespace Tenta.ViewModels
 {
     [QueryProperty(nameof(Category), nameof (Category))]
     public class CategoryViewModel : BaseViewModel
-    {
-        public readonly IApiService _service;
-
-        public CategoryViewModel()
-        {
-            _service = DependencyService.Get<IApiService>();
-        }
+    { 
 
         private string category = string.Empty;
         private string joke = string.Empty;

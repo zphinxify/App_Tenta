@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -42,6 +43,22 @@ namespace Tenta.Services
 
             return null;
 
+        }
+
+        public async Task<IEnumerable<Joke>>SearchJokes(string query)
+        {
+            var client = new HttpClient();
+            var response = await client.GetAsync("https://api.chucknorris.io/jokes/search?query=" + query);
+
+            if(response.IsSuccessStatusCode)
+            {
+                var queryResponse = await response.Content.ReadAsStringAsync();
+                var deserializedQuery = JsonConvert.DeserializeObject<JokeSearch>(queryResponse);
+
+                return deserializedQuery.result.AsEnumerable();
+            }
+
+            return null;
         }
     }
 }

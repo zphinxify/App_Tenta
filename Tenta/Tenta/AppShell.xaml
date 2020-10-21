@@ -5,8 +5,8 @@
        Title="Categories"
        x:Class="Tenta.AppShell">
 
-    
 
-    <ShellContent Route="CategoryPage" Shell.FlyoutBehavior="Disabled"></ShellContent>
+
+    <ShellContent Route="SearchPage" Shell.FlyoutBehavior="Disabled" ContentTemplate="{DataTemplate local:SearchPage}"></ShellContent>
 
 </Shell>

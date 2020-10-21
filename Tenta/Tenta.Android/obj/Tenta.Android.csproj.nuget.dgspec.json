@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta.Android\\Tenta.Android.csproj": {}
+    "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta.Android\\Tenta.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta.Android\\Tenta.Android.csproj": {
+    "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta.Android\\Tenta.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta.Android\\Tenta.Android.csproj",
+        "projectUniqueName": "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta.Android\\Tenta.Android.csproj",
         "projectName": "Tenta.Android",
-        "projectPath": "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta.Android\\Tenta.Android.csproj",
+        "projectPath": "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta.Android\\Tenta.Android.csproj",
         "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta.Android\\obj\\",
+        "outputPath": "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta\\Tenta.csproj": {
-                "projectPath": "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta\\Tenta.csproj"
+              "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta\\Tenta.csproj": {
+                "projectPath": "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta\\Tenta.csproj"
               }
             }
           }
@@ -54,14 +54,14 @@
         }
       }
     },
-    "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta\\Tenta.csproj": {
+    "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta\\Tenta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta\\Tenta.csproj",
+        "projectUniqueName": "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta\\Tenta.csproj",
         "projectName": "Tenta",
-        "projectPath": "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta\\Tenta.csproj",
+        "projectPath": "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta\\Tenta.csproj",
         "packagesPath": "C:\\Users\\benja\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benja\\source\\repos\\Tenta\\Tenta\\Tenta\\obj\\",
+        "outputPath": "C:\\Users\\benja\\Desktop\\Tenta_v2\\App_Tenta\\Tenta\\Tenta\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

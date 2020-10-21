@@ -4,13 +4,8 @@
              x:Class="Tenta.Views.JokePage">
     <ContentPage.Content>
     <StackLayout>
-        <ListView x:Name="jokes">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell Text="{Binding }"/>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </StackLayout>
+            <Label Text="{Binding Joke}"/>
+            <Button Text="Load new Joke" Clicked="Button_Clicked"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

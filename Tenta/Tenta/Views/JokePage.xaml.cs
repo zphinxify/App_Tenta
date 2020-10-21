@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Tenta.Models;
 using Tenta.Services;
 using Tenta.ViewModels;
 using Xamarin.Forms;
@@ -24,6 +25,12 @@ namespace Tenta.Views
         {
             base.OnAppearing();
             
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            var category = _model.Category;
+            _model.Joke = (await _model._service.GetJokeFromCategory(category)).Value;
         }
     }
 }

@@ -10,5 +10,6 @@ namespace Tenta.Services
     {
         Task<IEnumerable<string>> GetJokeCategories();
         Task<Joke>GetJokeFromCategory(string category);
+        Task<IEnumerable<Joke>> SearchJokes(string query);
     }
 }

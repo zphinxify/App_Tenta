@@ -14,7 +14,7 @@ namespace Tenta
 
             MainPage = new AppShell();
 
-            DependencyService.Register<IApiService, ApiService>();
+            DependencyService.Register<ApiService>();
         }
 
         protected override void OnStart()
