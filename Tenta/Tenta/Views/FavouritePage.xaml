@@ -4,17 +4,19 @@
              x:Class="Tenta.Views.FavouritePage">
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="Favourites" SeparatorVisibility="Default">
-                <ListView.ItemTemplate>
+            <CollectionView x:Name="Favourites">
+                <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
-                            <StackLayout>
-                                <Label Text="{Binding }" LineBreakMode="WordWrap"/>
-                            </StackLayout>
-                        </ViewCell>
+                        <Grid Padding="5">
+                            <Frame HorizontalOptions="FillAndExpand" BorderColor="Black" Padding="5" BackgroundColor="LightGreen">
+                                <StackLayout Orientation="Horizontal" >
+                                    <Label Text="{Binding }" FontSize="20"/>
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
                     </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
