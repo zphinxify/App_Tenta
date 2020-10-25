@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Diagnostics;
+using System.Dynamic;
 using System.Net.Http;
 using System.Text;
+using Tenta.Models;
 using Tenta.Services;
 using Xamarin.Forms;
 
@@ -12,12 +16,15 @@ namespace Tenta.ViewModels
     {
         private string category = string.Empty;
         private string joke = string.Empty;
+        private bool isFavourite = false;
 
-        public readonly IApiService _service;
+        
+
+        public static ObservableCollection<string> jokeFavourites { get; } = new ObservableCollection<string>();
 
         public JokePageViewModel()
         {
-            _service = new ApiService();
+            
         }
 
         public string Category
@@ -43,6 +50,47 @@ namespace Tenta.ViewModels
             var jokeString = await service.GetJokeFromCategory(jokeCategory);
 
             Joke = jokeString.Value;
+        }
+
+        public void AddJokeToFavourites(string joke)
+        { 
+            try
+            {
+                if (!jokeFavourites.Contains(joke))
+                {
+                    jokeFavourites.Add(joke);
+                }
+
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e);
+            }
+        }
+
+        public void DeleteJoke(string joke)
+        {
+            try
+            {
+                if(jokeFavourites.Contains(joke))
+                {
+                    jokeFavourites.Remove(joke);
+                }
+            }
+            catch(Exception e)
+            {
+                Debug.WriteLine(e);
+            }
+        }
+
+        public bool CheckIfJokeIsFavourite(string joke)
+        {
+            if (jokeFavourites.Contains(joke))
+            {
+                return true;
+            }
+
+            return false;
         }
 
     }

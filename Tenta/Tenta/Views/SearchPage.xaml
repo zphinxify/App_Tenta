@@ -1,17 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Tenta.Views.SearchPage">
+             x:Class="Tenta.Views.SearchPage"
+             xmlns:local="clr-namespace:Tenta.ViewModels">
     <ContentPage.Content>
         <StackLayout>
             <SearchBar x:Name="JokeSearcher" Placeholder="Search Jokes" SearchButtonPressed="JokeSearcher_SearchButtonPressed"/>
-            <ListView x:Name="Jokes">
-                <ListView.ItemTemplate>
+            <CollectionView x:Name="Jokes">
+                <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding Value}"/>
+                        <Grid Padding="5">
+                            <Frame BackgroundColor="White" HorizontalOptions="FillAndExpand" BorderColor="Black" Padding="5">
+                            <StackLayout Orientation="Horizontal" >
+                            <Label Text="{Binding Value}"/>
+                                <ImageButton x:Name="StarButton" Source="ic_star_border_black_18dp.png" BackgroundColor="White" Command="{Binding Source={RelativeSource AncestorType={x:Type local:SearchViewModel}}, Path=AddToFavourites}" CommandParameter="{Binding .}" Clicked="StarButton_Clicked"/>
+                            </StackLayout>
+                            </Frame>
+                        </Grid>
                     </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

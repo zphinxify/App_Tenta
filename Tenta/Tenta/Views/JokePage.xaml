@@ -4,7 +4,11 @@
              x:Class="Tenta.Views.JokePage">
     <ContentPage.Content>
     <StackLayout>
-            <Label Text="{Binding Joke}"/>
+            <Label x:Name="JokeText" Text="{Binding Joke}" FontSize="30" TextColor="Black"  HorizontalOptions="Center" Padding="20"/>
+            <CheckBox x:Name="FavBox" IsChecked="{Binding IsJokeFavourite}"></CheckBox>
+            <Button x:Name="FavouriteButton" Text="Add joke to favourites" BackgroundColor="Green" Clicked="Button_Clicked_1"/>
+            <Button x:Name="DeleteFavouriteButton" Text="Remove joke from favourites" BackgroundColor="Red" Clicked="DeleteFavouriteButton_Clicked" IsVisible="{Binding IsJokeFavourite}"/>
+
             <Button Text="Load new Joke" Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>

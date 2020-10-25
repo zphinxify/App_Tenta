@@ -38,6 +38,5 @@ namespace Tenta.Views
             // Persists the Category attribute to be sent to the next page
             await Shell.Current.GoToAsync($"{nameof(JokePage)}?{nameof(JokePageViewModel.Category)}={category}");
         }
-
     }
 }

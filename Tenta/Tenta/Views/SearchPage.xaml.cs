@@ -26,9 +26,6 @@ namespace Tenta.Views
             JokeSearcher.Focus();
         }
 
-        
-
-
         // Used in XAML-Page
         private async void JokeSearcher_SearchButtonPressed(object sender, EventArgs e)
         {
@@ -37,6 +34,11 @@ namespace Tenta.Views
 
             Jokes.ItemsSource = returnQuery;
 
+        }
+
+        private void StarButton_Clicked(object sender, EventArgs e)
+        {
+            var x = (ImageButton)sender;
         }
     }
 }

@@ -17,6 +17,8 @@ namespace Tenta
             Routing.RegisterRoute(nameof (CategoryPage), typeof(CategoryPage));
             Routing.RegisterRoute(nameof (JokePage), typeof(JokePage));
             Routing.RegisterRoute(nameof(SearchPage), typeof(SearchPage));
+            Routing.RegisterRoute(nameof(FavouritePage), typeof(FavouritePage));
+
         }
     }
 }

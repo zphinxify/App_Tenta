@@ -7,8 +7,8 @@
             <ListView x:Name="categories" ItemSelected="ButtonNavigate_Clicked">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding }"/>
-                    </DataTemplate> 
+                        <TextCell Text= "{Binding }" />
+                    </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
         </StackLayout>

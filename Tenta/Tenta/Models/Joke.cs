@@ -13,5 +13,7 @@ namespace Tenta.Models
 
             [JsonProperty("value")]
             public string Value { get; set; }
+
+            public bool IsFavourite { get; set; } = false;
         }
 }

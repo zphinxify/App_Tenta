@@ -19,7 +19,6 @@ C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\bin\Debug\netstandard2.0\T
 C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\bin\Debug\netstandard2.0\Tenta.dll
 C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\bin\Debug\netstandard2.0\ref\Tenta.dll
 C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\bin\Debug\netstandard2.0\Tenta.pdb
-C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\obj\Debug\netstandard2.0\Tenta.csprojAssemblyReference.cache
 C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
 C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\obj\Debug\netstandard2.0\Views\CategoryPage.xaml.g.cs
@@ -31,4 +30,6 @@ C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\obj\Debug\netstandard2.0\X
 C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\obj\Debug\netstandard2.0\Tenta.dll
 C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\obj\Debug\netstandard2.0\ref\Tenta.dll
 C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\obj\Debug\netstandard2.0\Tenta.pdb
+C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\obj\Debug\netstandard2.0\Views\FavouritePage.xaml.g.cs
 C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\obj\Debug\netstandard2.0\Views\SearchPage.xaml.g.cs
+C:\Users\benja\Desktop\Tenta_v2\App_Tenta\Tenta\Tenta\obj\Debug\netstandard2.0\Tenta.csprojAssemblyReference.cache
